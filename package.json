@@ -1,0 +1,29 @@
+{
+  "name": "marvel-universal-table",
+  "version": "1.0.0",
+  "description": "The Marvel Universal Table in JSON format",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BergerLand/marvel-universal-table.git"
+  },
+  "keywords": [
+    "Marvel",
+    "universal",
+    "table",
+    "games",
+    "gaming",
+    "json",
+    "role",
+    "playing"
+  ],
+  "author": "Phillip R. Berger",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BergerLand/marvel-universal-table/issues"
+  },
+  "homepage": "https://github.com/BergerLand/marvel-universal-table#readme"
+}
