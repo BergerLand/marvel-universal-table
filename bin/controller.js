@@ -1,6 +1,10 @@
-var controller = (() => {
+const controller = (() => {
 
     const table = require("./table.json");
+
+    return {
+        table: table
+    }
 
 })();
 

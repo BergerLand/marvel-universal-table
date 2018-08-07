@@ -1,3 +1,3 @@
-const mut = require("./controller.js");
+const controller = require("./controller.js");
 
-module.exports = mut;
+module.exports = controller;
