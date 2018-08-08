@@ -30,7 +30,7 @@ This would be used to get an array of all the named feats from the Marvel Univer
 
 This would be used to get an array of all the ranks, with a `name` and `range` property returned as strings.
 
-`marvelUniversalTable.ranks[0].name;`
+`marvelUniversalTable.ranks[0].name;`  
 `marvelUniversalTable.ranks[0].range;`
 
 ***
@@ -39,8 +39,8 @@ This would be used to get an array of all the ranks, with a `name` and `range` p
 
 `marvelUniversalTable.chance.{{ 1 - 100 }};`
 
-Thhis would be used to get back an object containing nested objects with keys of 1 - 100. Inside each numeric key is an object of string pairs.
-Each pair lists the FEAT and resulting color for that key's value.
+This would be used to get back an object containing nested objects with keys of 1 - 100. Inside each numeric key is an object of string pairs.
+Each pair lists the FEAT and resulting color for that key's value. This is the first of two steps in looking up the final result.
 
 ***
 
@@ -48,8 +48,8 @@ Each pair lists the FEAT and resulting color for that key's value.
 
 `marvelUniversalTable.results;`
 
-This would be used to get back an object containing "white", "green", "yellow" and "red".
-In each nested object is a map of the feat named connected to the result. This is the first step in looking up the result.
+This would be used to get back an object containing "white", "green", "yellow" and "red".  You should plug the color in from the `chance` lookup here.
+In each nested object is a map of the feat named connected to the result. This is the second of two steps in looking up the final result.
 
 ## Support or Contact
 
