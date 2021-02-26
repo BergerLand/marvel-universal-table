@@ -1,6 +1,6 @@
 {
   "name": "marvel-universal-table",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "The Marvel Universal Table in JSON format",
   "main": "./bin/index.js",
   "scripts": {
